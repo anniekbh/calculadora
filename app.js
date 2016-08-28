@@ -1,10 +1,9 @@
-var n>0 = true;
-do {var opciones = parseInt(prompt("selecione una opción: \n" + 
+var opciones = parseInt(prompt("selecione una opción: \n" + 
 	"1. Suma\n" +
 	"2. Resta\n" +
     "3. Multiplicación\n" +
     "4. División\n" +
-    "5. Residuo\n" t
+    "5. Residuo\n" +
     "6. Mayor\n" +
     "7. Menor\n" +
 	"8. igual\n" +
@@ -41,7 +40,7 @@ do {var opciones = parseInt(prompt("selecione una opción: \n" +
         break;
             
         case 6:
-        var mayor= (numero1 > numero2);
+        var mayor = (numero1 > numero2);
             if(mayor){
                 document.write("El # mayor es "+ numero1);
             }
@@ -51,7 +50,7 @@ do {var opciones = parseInt(prompt("selecione una opción: \n" +
         break;
 
         case 7:
-        var menor= (numero1 < numero2);
+        var menor = (numero1 < numero2);
             if(menor){
                 document.write("El # menor es "+ numero1);
             }
@@ -61,7 +60,7 @@ do {var opciones = parseInt(prompt("selecione una opción: \n" +
         break;
 
         case 8:
-        var igualdad= (numero1 == numero2);
+        var igualdad = (numero1 == numero2);
             if(igualdad){
                 document.write("Ambos números son iguales");
             }
@@ -74,4 +73,3 @@ do {var opciones = parseInt(prompt("selecione una opción: \n" +
     	document.write("no way x___x !!!!");
         break;	
     }
-} while (n>0);

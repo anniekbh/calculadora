@@ -6,7 +6,7 @@ var opciones = parseInt(prompt("selecione una opción: \n" +
     "5. Residuo\n" +
     "6. Mayor\n" +
     "7. Menor\n" +
-	"8. igualdad\n" +
+	"8. igualdad"
     ));
 
     var numero1 = parseInt(prompt("Ingresa tu número 1"));
